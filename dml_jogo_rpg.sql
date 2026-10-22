@@ -1,13 +1,9 @@
 -- ATIVIDADE: Linguagem de Manipulação de Dados (DML)
 -- Projeto: Jogo de RPG Online
--- SGBD: MySQL 8+
+-- SGBD: SQL 
 -- Este script considera que as tabelas do arquivo banco_jogo_rpg.sql já foram criadas.
 
 USE jogo_rpg;
-
--- =====================================================
--- 1. INSERÇÃO DE DADOS (INSERT)
--- =====================================================
 
 INSERT INTO USUARIOS (UsuarioId, Email, Senha) VALUES
 (1, 'ana@example.com', '$2y$10$HASH_DE_EXEMPLO_NAO_UTILIZAR_EM_PRODUCAO'),
